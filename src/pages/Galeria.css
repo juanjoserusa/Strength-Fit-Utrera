@@ -25,3 +25,14 @@
     border-radius: 8px;
   }
   
+  /* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+    .galeria-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(9, 1fr);
+    }
+  
+    .galeria-item {
+      height: calc((91vh - 80px) / 3); /* Ajusta la altura de cada imagen en móvil */
+    }
+  }

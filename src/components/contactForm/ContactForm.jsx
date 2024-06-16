@@ -3,7 +3,7 @@ import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
-    <div className="container text-white w-50 contact__form-square">
+    <div className="container text-white contact__form-square">
       <form>
         <div class="mb-5 text-xl-center">
           <label for="exampleFormControlInput1" class="form-label ">
@@ -26,7 +26,7 @@ const ContactForm = () => {
             rows="10"
           ></textarea>
         </div>
-        <div className="mt-4 mb-4 d-flex justify-content-center home__div-button">
+        <div className="mt-4 mb-4 d-flex justify-content-center home__div-button div__button-contacto">
             <button className=" btn btn-primary w-50 home__button button-contacto ">Solcitar mas información</button>
         </div>
       </form>

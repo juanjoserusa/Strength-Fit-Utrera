@@ -32,11 +32,13 @@
   
   .contact__form-square {
     background-color: #ae1010;
+    width: 50% !important;
     color: white;
     padding: 1.5%;
     height: 85%;
     border-radius: 15px;
     margin-top: -2%;
+
   }
   
   textarea {
@@ -46,14 +48,57 @@
   label {
     font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
+    width: 100% !important;
+    margin-bottom: 15px !important;
   }
   
   .contact__title {
     font-size: 3em;
     font-weight: bold;
     color: red;
+    margin-bottom: 5%;
   }
   
   .button-contacto{
     margin-left: 30%;
+  }
+
+  @media (max-width: 768px) {
+    .contact__page--father {
+      height: 90vh;
+    }
+  
+    .contact__div {
+      height: 90vh;
+      margin-top: 0;
+    }
+  
+    .contact__form-square {
+      margin-top: 0;
+      width: 90% !important;
+      height: 65vh !important;
+
+    }
+  
+    .contact__title {
+      font-size: 2em;
+      text-align: center;
+    }
+  
+    .button-contacto{
+      margin-left: 42%;
+      width: 300px !important;
+    }
+
+    .div__button-contacto{
+      width: 100% !important;
+    }
+    .button-contacto{
+      width: 100% !important;
+      margin: 0 !important;
+      margin-left: 10% !important;
+      padding: 0 !important;
+      
+    }
   }
