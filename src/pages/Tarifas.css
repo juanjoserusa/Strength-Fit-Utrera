@@ -1,0 +1,141 @@
+.tarifas__background {
+  background-image: url('../assets/tarifas.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 91vh;
+}
+
+.tarifas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  margin-left: -30%;
+}
+
+.tarifa {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tarifa:hover {
+  transform: scale(1.05);
+}
+
+.tarifa h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.tarifa p {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.tarifa .btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.tarifa .btn:hover {
+  background-color: #0056b3;
+}
+
+.tarifa__decorations {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.tarifa__square--decoration {
+  background-color: rgba(255, 0, 0, 0.7);
+  transform: rotate(25deg);
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(25deg);
+}
+
+.tarifa__circle--decoration {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.5);
+  border-radius: 50%;
+  animation: moveCircle 4s infinite alternate;
+}
+
+.tarifa__triangle--decoration {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgba(0, 255, 0, 0.5);
+  animation: rotateTriangle 5s infinite alternate;
+}
+
+@keyframes moveCircle {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes rotateTriangle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos responsivos para dispositivos móviles */
+@media (max-width: 768px) {
+  .tarifas-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 0;
+  }
+  .tarifa {
+    width: 90%;
+    margin: 10px 0;
+  }
+  .tarifa__decorations {
+    display: none;
+  }
+  .tarifas__background{
+    background-position: 90% 50%;
+  }
+}
