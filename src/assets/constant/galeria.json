@@ -1,0 +1,38 @@
+export const galeria = [
+    {
+        nombre: "maquina super maquina",
+        imagen: "https://www.titaniumstrength.es/blog/wp-content/uploads/2023/04/DSC02295-1-scaled.jpg"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    },
+    {
+        nombre: "Galería 1",
+        imagen: "https://via.placeholder.com/300"
+    }
+];
