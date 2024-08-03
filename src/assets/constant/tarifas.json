@@ -1,46 +1,32 @@
 export const tarifas = [
     {
-        nombre: "Tarifa Básica",
+        nombre: "Tarifa PreStrengthFit",
         descripcion: [
             "Acceso ilimitado al gimnasio",
-            "Clases grupales incluidas",
+            "Entrenamiento básico a elección",
             "Acceso a duchas y vestuarios"
         ],
-        precio: 29.99,
+        precio: 20.00,
         link: "https://tugimnasio.com/tarifa-basica"
     },
     {
-        nombre: "Tarifa Premium",
+        nombre: "Tarifa PowerStrength",
         descripcion: [
-            "Acceso ilimitado al gimnasio y piscina",
-            "Clases grupales y personalizadas",
-            "Acceso a sauna y spa",
-            "Acceso a duchas y vestuarios",
-            "Una evaluación física mensual"
+            "Acceso ilimitado al gimnasio",
+            "Entrenamiento básico a elección",
+            "Acceso a duchas y vestuarios"
         ],
-        precio: 49.99,
+        precio: 25.00,
         link: "https://tugimnasio.com/tarifa-premium"
     },
     {
-        nombre: "Tarifa Estudiante",
+        nombre: "Tarifa SportStrength",
         descripcion: [
-            "Acceso ilimitado al gimnasio de lunes a viernes",
-            "Clases grupales incluidas",
-            "Acceso a duchas y vestuarios",
-            "Descuento especial para estudiantes"
+            "Acceso limitado al gimnasio de dos días por semana",
+            "Entrenamiento básico a elección",
+            "Acceso a duchas y vestuarios"
         ],
-        precio: 19.99,
+        precio: 15.00,
         link: "https://tugimnasio.com/tarifa-estudiante"
-    },
-    {
-        nombre: "Tarifa Familiar",
-        descripcion: [
-            "Acceso ilimitado para dos adultos y dos niños",
-            "Clases grupales incluidas para toda la familia",
-            "Acceso a duchas y vestuarios",
-            "Descuento en actividades para niños"
-        ],
-        precio: 69.99,
-        link: "https://tugimnasio.com/tarifa-familiar"
     }
 ];
