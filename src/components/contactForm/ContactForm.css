@@ -27,7 +27,7 @@
   
   .contact__div {
     height: 70vh;
-    margin-top: 5%;
+    margin-top: 1%;
   }
   
   .contact__form-square {
@@ -38,6 +38,7 @@
     height: 85%;
     border-radius: 15px;
     margin-top: -2%;
+  
 
   }
   
@@ -61,7 +62,9 @@
   }
   
   .button-contacto{
-    margin-left: 30%;
+    width: 300% !important;
+    margin-left: 0 !important;
+
   }
 
   @media (max-width: 768px) {
@@ -86,19 +89,11 @@
       text-align: center;
     }
   
-    .button-contacto{
-      margin-left: 42%;
-      width: 300px !important;
-    }
+
 
     .div__button-contacto{
       width: 100% !important;
+      margin-left: 0 !important;
     }
-    .button-contacto{
-      width: 100% !important;
-      margin: 0 !important;
-      margin-left: 10% !important;
-      padding: 0 !important;
-      
-    }
+
   }

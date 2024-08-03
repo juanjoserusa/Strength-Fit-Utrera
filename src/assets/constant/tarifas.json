@@ -1,0 +1,46 @@
+export const tarifas = [
+    {
+        nombre: "Tarifa Básica",
+        descripcion: [
+            "Acceso ilimitado al gimnasio",
+            "Clases grupales incluidas",
+            "Acceso a duchas y vestuarios"
+        ],
+        precio: 29.99,
+        link: "https://tugimnasio.com/tarifa-basica"
+    },
+    {
+        nombre: "Tarifa Premium",
+        descripcion: [
+            "Acceso ilimitado al gimnasio y piscina",
+            "Clases grupales y personalizadas",
+            "Acceso a sauna y spa",
+            "Acceso a duchas y vestuarios",
+            "Una evaluación física mensual"
+        ],
+        precio: 49.99,
+        link: "https://tugimnasio.com/tarifa-premium"
+    },
+    {
+        nombre: "Tarifa Estudiante",
+        descripcion: [
+            "Acceso ilimitado al gimnasio de lunes a viernes",
+            "Clases grupales incluidas",
+            "Acceso a duchas y vestuarios",
+            "Descuento especial para estudiantes"
+        ],
+        precio: 19.99,
+        link: "https://tugimnasio.com/tarifa-estudiante"
+    },
+    {
+        nombre: "Tarifa Familiar",
+        descripcion: [
+            "Acceso ilimitado para dos adultos y dos niños",
+            "Clases grupales incluidas para toda la familia",
+            "Acceso a duchas y vestuarios",
+            "Descuento en actividades para niños"
+        ],
+        precio: 69.99,
+        link: "https://tugimnasio.com/tarifa-familiar"
+    }
+];

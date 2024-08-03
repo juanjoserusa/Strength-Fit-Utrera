@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer.jsx";
 import Tarifas from "./pages/Tarifas.jsx";
 import Instalaciones from "./pages/Instalaciones.jsx";
 import Contacto from "./pages/Contacto.jsx";
+import Filosofia from "./pages/Filosofia.jsx";
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
           <Route path="/tarifas" element={<Tarifas />} />
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/instalaciones" element={<Instalaciones />} />
+          <Route path="/filosofia" element={<Filosofia />} />
           <Route path="/contacto" element={<Contacto />} />
 
       </Routes>

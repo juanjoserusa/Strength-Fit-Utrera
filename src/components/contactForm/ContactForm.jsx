@@ -26,8 +26,8 @@ const ContactForm = () => {
             rows="10"
           ></textarea>
         </div>
-        <div className="mt-4 mb-4 d-flex justify-content-center home__div-button div__button-contacto">
-            <button className=" btn btn-primary w-50 home__button button-contacto ">Solcitar mas información</button>
+        <div className="mt-4 mb-4 d-flex ">
+            <button className=" btn btn-primary button-contacto ">Solcitar mas información</button>
         </div>
       </form>
     </div>
@@ -35,3 +35,5 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+
