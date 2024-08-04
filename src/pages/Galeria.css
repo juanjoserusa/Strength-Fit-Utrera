@@ -5,6 +5,7 @@
     margin-bottom:100px;
     background-color: black;
     padding: 5%;
+    margin: 0 auto;
   }
   
   .galeria-item {
@@ -25,15 +26,23 @@
   }
 
   /* Media Query para portátiles de hasta 15,6 pulgadas (ancho máximo de 1366px) */
-  @media only screen and (max-width: 1366px) {
-    /* Estilos específicos para portátiles pequeños */
+  @media only screen and (max-width: 1624px) and (min-width: 430px) {
+    .galeria-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
   }
   
   /* Media Query para móviles a partir de 430 píxeles de ancho */
   @media only screen and (max-width: 430px) {
     .galeria-container {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(9, 1fr);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      padding-top: 50px;
+      margin-bottom: 100px;
     }
   
     .galeria-item {

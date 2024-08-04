@@ -7,7 +7,8 @@ const Galeria = () => {
 
   return (
     <div className='bg-black'>
-    <div className="galeria-container  ">
+    <h3 className='text-center text-white pt-5'>Galeria</h3>
+    <div className="galeria-container">
       {
         galeria.map((item, index) => (
           <div key={index} className="galeria-item">
