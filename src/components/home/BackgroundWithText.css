@@ -77,10 +77,22 @@
 }
 
 
-/* Estilos responsivos para dispositivos móviles */
-@media (max-width: 768px) {
+
+
+/* Media Query para portátiles de hasta 15,6 pulgadas (ancho máximo de 1366px) */
+@media (max-width: 1626px) and (min-width: 430px)  {
+
   .background-container {
-    background-position: 75%;
+
+    }
+}
+
+/* Media Query para móviles a partir de 430 píxeles de ancho */
+@media only screen and (max-width: 430px) {
+  .background-container {
+    background-image: url('../../assets/home.jpg');
+    background-size: cover;
+    background-position: center;
     height: 85vh;
     display: flex;
     align-items: center;
@@ -90,8 +102,8 @@
   .text-container {
     color: white;
     padding: 10px; /* Añadimos padding para más espacio en móviles */
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: -5px;
+
     width: 100%; /* Ajustamos el ancho para móviles */
     background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente */
     border-radius: 10px; /* Opcional, para bordes redondeados */
@@ -121,6 +133,11 @@
 
   .home__button {
     margin: 0 auto;
-    margin-left: 40%;
+
+  }
+  .home__div-button {
+    width: 100%;
+    display: flex;
+    margin-left: 0.5rem;
   }
 }
