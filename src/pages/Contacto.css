@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1624px) and (min-width: 430px) {
+
+    .contact__page--father{
+        height: 100%;
+
+    }
+
+    .contact__div{
+        height: 90%;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .contact__page--father{
+        height: 100%;
+    }
+
+    .contact__div{
+        height: 50%;
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+}
