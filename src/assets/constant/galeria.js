@@ -60,15 +60,15 @@ export const galeria = [
         nombre:"Prensa y jaca"
     },
     {
-        image:"./src/assets/img/galeriaImages/bancoAbdominal.jpg",
+        image:"https://i.imgur.com/pzJh44B.jpeg",
         nombre:"Banco abdominal"
     },
     {
-        image:"./src/assets/img/galeriaImages/bancoLumbar.jpg",
+        image:"https://i.imgur.com/QLFO5Ed.jpeg",
         nombre:"Banco lumbar"
     },
     {
-        image:"./src/assets/img/galeriaImages/bancoAjustable.jpg",
+        image:"https://i.imgur.com/XGCdhxi.jpeg",
         nombre:"Banco ajustable"
     },
     {
@@ -76,7 +76,7 @@ export const galeria = [
         nombre:"Extensión y femoral sentado"
     },
     {
-        image:"https://imgur.com/AAEtXUZ",
+        image:"https://i.imgur.com/iPf69Ae.jpeg",
         nombre:"Abductor-Adductor"
     }
 ];
