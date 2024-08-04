@@ -25,7 +25,7 @@ const Filosofia = () => {
           <div className="custom-col">
             <div className="custom-card image-card">
               <img
-                src="./src/assets/filosofia1.jpg"
+                src="./src/assets/img/filosofia1.jpg"
                 alt="Imagen 1"
               />
             </div>
@@ -50,7 +50,7 @@ const Filosofia = () => {
           <div className="custom-col">
             <div className="custom-card image-card">
               <img
-                src="./src/assets/filosofia2.jpg"
+                src="./src/assets/img/filosofia2.jpg"
                 alt="Imagen 2"
               />
             </div>
@@ -76,7 +76,7 @@ const Filosofia = () => {
           <div className="custom-col only-pc">
             <div className="custom-card image-card">
               <img
-                src="./src/assets/filosofia3.jpg"
+                src="./src/assets/img/filosofia3.jpg"
                 alt="Imagen 3"
               />
             </div>

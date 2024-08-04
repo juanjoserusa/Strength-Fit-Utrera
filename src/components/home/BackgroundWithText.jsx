@@ -1,6 +1,6 @@
 import React from "react";
 import "./BackgroundWithText.css";
-import backgroundImage from "../../assets/home.png";
+import backgroundImage from "../../assets/img/home.png";
 import { Link } from "react-router-dom";
 
 const BackgroundWithText = () => {

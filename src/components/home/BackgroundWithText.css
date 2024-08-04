@@ -1,5 +1,5 @@
 .background-container {
-  background-image: url('../../assets/home.jpg');
+  background-image: url('../../assets/img/home.jpg');
   background-size: cover;
   background-position: center;
   height: 85vh;
@@ -128,7 +128,7 @@
 /* Media Query para móviles a partir de 430 píxeles de ancho */
 @media only screen and (max-width: 430px) {
   .background-container {
-    background-image: url('../../assets/home.jpg');
+    background-image: url('../../assets/img/home.jpg');
     background-size: cover;
     background-position: center;
     height: 85vh;
