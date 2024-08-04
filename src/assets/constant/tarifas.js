@@ -1,7 +1,8 @@
 export const tarifas = [
     {
-        nombre: "Tarifa PreStrengthFit",
+        nombre: "Tarifa Pre StrengthFit",
         descripcion: [
+            "Tarifa válida hasta el 25 de Agosto de 2024",
             "Acceso ilimitado al gimnasio",
             "Entrenamiento básico a elección",
             "Acceso a duchas y vestuarios"
@@ -20,6 +21,17 @@ export const tarifas = [
         link: "https://tugimnasio.com/tarifa-premium"
     },
     {
+        nombre: "Tarifa Pre SportStrength",
+        descripcion: [
+            "Tarifa válida hasta el 25 de Agosto de 2024",
+            "Acceso limitado al gimnasio de dos días por semana",
+            "Entrenamiento básico a elección",
+            "Acceso a duchas y vestuarios"
+        ],
+        precio: 10.00,
+        link: "https://tugimnasio.com/tarifa-estudiante"
+    },
+    {
         nombre: "Tarifa SportStrength",
         descripcion: [
             "Acceso limitado al gimnasio de dos días por semana",
@@ -28,5 +40,5 @@ export const tarifas = [
         ],
         precio: 15.00,
         link: "https://tugimnasio.com/tarifa-estudiante"
-    }
+    },
 ];
