@@ -76,7 +76,7 @@ export const galeria = [
         nombre:"Extensión y femoral sentado"
     },
     {
-        image:"./src/assets/img/galeriaImages/abductorAdductor.jpg",
+        image:"https://imgur.com/AAEtXUZ",
         nombre:"Abductor-Adductor"
     }
 ];
