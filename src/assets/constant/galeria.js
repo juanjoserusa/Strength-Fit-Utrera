@@ -1,62 +1,62 @@
 export const galeria = [
     { 
-        image:"/src/assets/img/galeriaImages/multiestaciónDosTorres.jpg",
+        image:"https://i.imgur.com/sTJblFA.jpeg",
         nombre:"Multiestación 2 torres"
     },
     { 
-        image:"./src/assets/img/galeriaImages/cintaDeCorrer.jpg",
+        image:"https://i.imgur.com/W9i1Sp2.jpeg",
         nombre:"Cinta de correr"
     }, 
     {
-        image:"./src/assets/img/galeriaImages/bicicletaEliptica.jpg",
+        image:"https://i.imgur.com/yTx8nHQ.jpeg",
         nombre:"Bicicleta elíptica"
     },
     {
-        image:"./src/assets/img/galeriaImages/bicicletaSpinning.jpg",
+        image:"https://i.imgur.com/CA1JCZz.jpeg",
         nombre:"Bicicleta de spinning"
     },
     {
-        image:"./src/assets/img/galeriaImages/hipThrust.jpg",
+        image:"https://i.imgur.com/YF9oIVd.jpeg",
         nombre:"Hip thrust"
     },
     {
-        image:"./src/assets/img/galeriaImages/powerRack.jpg",
+        image:"https://i.imgur.com/t0DcrBW.jpeg",
         nombre:"Power rack"
     },
     {
-        image:"./src/assets/img/galeriaImages/squatRack.jpg",
+        image:"https://i.imgur.com/soF9JS2.jpeg",
         nombre:"Rack multifuncional"
     },
     {
-        image:"./src/assets/img/galeriaImages/bancoOlimpicoMultifuncion.jpg",
+        image:"https://i.imgur.com/pRrzcT5.jpeg",
         nombre:"Banco olímpico multifunción"
     },
     {
-        image:"./src/assets/img/galeriaImages/pecFly.jpg",
+        image:"https://i.imgur.com/zYcAwGZ.jpeg",
         nombre:"Pec fly"
     },
     {
-        image:"./src/assets/img/galeriaImages/pressHombroPecho.jpg",
+        image:"https://i.imgur.com/3Xk48Ge.jpeg",
         nombre:"Press hombro y pecho"
     },
     {
-        image:"./src/assets/img/galeriaImages/fondosTriceps.jpg",
+        image:"https://i.imgur.com/qGlbfwU.jpeg",
         nombre:"Fondos tríceps"
     },
     {
-        image:"./src/assets/img/galeriaImages/remo.jpg",
+        image:"https://i.imgur.com/NgG7FvH.jpeg",
         nombre:"Remo"
     },
     {
-        image:"./src/assets/img/galeriaImages/bicepsTriceps.jpg",
+        image:"https://i.imgur.com/AWpYybr.jpeg",
         nombre:"Bíceps-Tríceps"
     },
     {
-        image:"./src/assets/img/galeriaImages/elevacionPiernasFemoralTumbado.jpg",
+        image:"https://i.imgur.com/nyHlN7E.jpeg",
         nombre:"Elevación de piernas y femoral tumbado"
     },
     {
-        image:"./src/assets/img/galeriaImages/prensaYJaca.jpg",
+        image:"https://i.imgur.com/Hb8X3iB.jpeg",
         nombre:"Prensa y jaca"
     },
     {
@@ -72,7 +72,7 @@ export const galeria = [
         nombre:"Banco ajustable"
     },
     {
-        image:"./src/assets/img/galeriaImages/extensionYFemoralSentado.jpg",
+        image:"https://i.imgur.com/PtYAGPe.jpeg",
         nombre:"Extensión y femoral sentado"
     },
     {
