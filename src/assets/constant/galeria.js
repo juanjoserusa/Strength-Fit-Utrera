@@ -1,82 +1,82 @@
 export const galeria = [
     { 
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/d/a/da038.png",
+        image:"./src/assets/galeriaImages/multiestaciónDosTorres.jpg",
         nombre:"Multiestación 2 torres"
     },
     { 
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/i/binom_fitness_tapis_de_course.jpg",
+        image:"./src/assets/galeriaImages/cintaDeCorrer.jpg",
         nombre:"Cinta de correr"
     }, 
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/e/be1_2_.jpg",
+        image:"./src/assets/galeriaImages/bicicletaEliptica.jpg",
         nombre:"Bicicleta elíptica"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/x/b/xb06_2_.png",
+        image:"./src/assets/galeriaImages/bicicletaSpinning.jpg",
         nombre:"Bicicleta de spinning"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/d/z/dz30_2__1.png",
+        image:"./src/assets/galeriaImages/hipThrust.jpg",
         nombre:"Hip thrust"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/s/bs45.jpg",
+        image:"./src/assets/galeriaImages/powerRack.jpg",
         nombre:"Power rack"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/s/bs42-_1_1.jpg",
+        image:"./src/assets/galeriaImages/squatRack.jpg",
         nombre:"Rack multifuncional"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/t/s/ts202_1.png",
+        image:"./src/assets/galeriaImages/bancoOlimpicoMultifuncion.jpg",
         nombre:"Banco olímpico multifunción"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl04.png",
+        image:"./src/assets/galeriaImages/pecFly.jpg",
         nombre:"Pec fly"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl29-2.png",
+        image:"./src/assets/galeriaImages/pressHombroPecho.jpg",
         nombre:"Press hombro y pecho"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl36_.png",
+        image:"./src/assets/galeriaImages/fondosTriceps.jpg",
         nombre:"Fondos tríceps"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl03.png",
+        image:"./src/assets/galeriaImages/remo.jpg",
         nombre:"Remo"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl26.png",
+        image:"./src/assets/galeriaImages/bicepsTriceps.jpg",
         nombre:"Bíceps-Tríceps"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl28.png",
+        image:"./src/assets/galeriaImages/elevacionPiernasFemoralTumbado.jpg",
         nombre:"Elevación de piernas y femoral tumbado"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/c/p/cpc203.png",
+        image:"./src/assets/galeriaImages/prensaYJaca.jpg",
         nombre:"Prensa y jaca"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/a/f/afw_-_bk3026_-_mini_sit-up_bench.jpg",
+        image:"./src/assets/galeriaImages/bancoAbdominal.jpg",
         nombre:"Banco abdominal"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/i/binom_strength_bk_3037.jpg",
+        image:"./src/assets/galeriaImages/bancoLumbar.jpg",
         nombre:"Banco lumbar"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/k/bk-4006_1_.jpg",
+        image:"./src/assets/galeriaImages/bancoAjustable.jpg",
         nombre:"Banco ajustable"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl25.png",
+        image:"./src/assets/galeriaImages/extensionYFemoralSentado.jpg",
         nombre:"Extensión y femoral sentado"
     },
     {
-        image:"https://www.binomfitness.es/media/catalog/product/cache/2959e07eef40d1cb33decb8397ba855a/b/p/bpl27c.png",
+        image:"./src/assets/galeriaImages/abductorAdductor.jpg",
         nombre:"Abductor-Adductor"
     }
 ];
