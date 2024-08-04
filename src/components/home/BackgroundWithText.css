@@ -82,9 +82,47 @@
 /* Media Query para portátiles de hasta 15,6 pulgadas (ancho máximo de 1366px) */
 @media (max-width: 1626px) and (min-width: 430px)  {
 
-  .background-container {
+  .text-container {
+    color: white;
+    padding: 20px;
+    margin-left: 3%;
+    width: 50%;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+  }
+  
+  .home__title {
+    color: red;
+    font-size: 5rem;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    animation: fadeIn 3s ease-in-out, slideIn 2s ease-out;
+    margin-top: 30px;
+  }
 
-    }
+  .home__subtittle {
+    color: rgb(235, 106, 1);
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    animation: fadeIn 3s ease-in-out, slideIn 2s ease-out;
+    text-align: center;
+    width: 80%;
+  }
+
+  .home__text {
+    color: white;
+    width: 80%;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    margin-top: 5%;
+  }
+
+  .home__button-home{
+    margin-bottom: 50px;
+  }
 }
 
 /* Media Query para móviles a partir de 430 píxeles de ancho */
@@ -129,6 +167,7 @@
     text-align: center;
     margin: 0 auto;
     width: 100%;
+    font-size: 1.23rem;
   }
 
   .home__button {
@@ -139,5 +178,6 @@
     width: 100%;
     display: flex;
     margin-left: 0.5rem;
+    margin-top: 10%;
   }
 }

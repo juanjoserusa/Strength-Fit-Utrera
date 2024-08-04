@@ -3,38 +3,40 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* Align items to the right */
   align-items: center;
   height: 91vh;
 }
 
 .tarifas-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  position: relative;
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(2, 1fr); /* Responsive grid */
+  gap: 10px; /* Remove space between grid items */
+  width: auto; /* Allow width to adjust based on content */
   padding: 20px;
-  margin-left: -25%;
+  position: relative;
+  margin: 0; /* Remove left margin */
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .tarifa {
   background-color: white;
   padding: 15px;
-  margin: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 450px;
-  height: 310px;
+  width: 100%; /* Full width within grid */
+  max-width: 450px; /* Maximum width for large screens */
+  height: 310px; /* Fixed height */
   transition: transform 0.3s ease-in-out;
+  margin: 0; /* Remove margin between cards */
 }
 
-.title{
+.title {
   text-align: center;
 }
 
-.price{
+.price {
   text-align: center;
   font-size: 1.5em;
   color: #000000;
@@ -130,27 +132,39 @@
   }
 }
 
+/* Media Query for devices from 1624px down to 430px */
+@media only screen and (max-width: 1624px) and (min-width: 430px) {
 
-  @media only screen and (max-width: 1366px) {
-    /* Estilos específicos para portátiles pequeños */
+  .tarifas__background{
+    height: 100%;
   }
-  
-  /* Media Query para móviles a partir de 430 píxeles de ancho */
-  @media only screen and (max-width: 430px) {
-    .tarifas-container {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px;
-      margin-left: 0;
-    }
-    .tarifa {
-      width: 90%;
-      margin: 10px 0;
-    }
-    .tarifa__decorations {
-      display: none;
-    }
-    .tarifas__background{
-      background-position: 90% 50%;
-    }
+  .tarifas-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns per row */
+    gap: 20px; /* Increase space between grid items */
+    justify-content: flex-start; /* Align cards to the right */
+    margin-left: 0; /* Adjust margin for smaller screens */
+    margin-top: 5px;
+  }
+  .tarifa {
+    width: 100%
+  }
+}
+
+/* Media Query for mobile devices less than 430px */
+@media only screen and (max-width: 430px) {
+  .tarifas-container {
+    grid-template-columns: 1fr; /* One column per row */
+    justify-content: flex-end; /* Align single column to the right */
+    margin-left: 0; /* Adjust margin for mobile */
+  }
+  .tarifa {
+    width: 100%; /* Full width for single column layout */
+    margin: 10px 0; /* Adjust margin for spacing */
+  }
+  .tarifa__decorations {
+    display: none; /* Hide decorations on mobile */
+  }
+  .tarifas__background {
+    background-position: 90% 50%; /* Adjust background position for mobile */
+  }
 }
