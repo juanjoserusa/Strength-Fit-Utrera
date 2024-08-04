@@ -97,3 +97,13 @@
     font-size: 1rem;
   }
 }
+
+/* Media Query para portátiles de hasta 15,6 pulgadas (ancho máximo de 1366px) */
+@media only screen and (max-width: 1366px) {
+  /* Estilos específicos para portátiles pequeños */
+}
+
+/* Media Query para móviles a partir de 430 píxeles de ancho */
+@media only screen and (max-width: 430px) {
+  /* Estilos específicos para móviles */
+}

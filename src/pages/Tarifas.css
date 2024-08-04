@@ -130,22 +130,27 @@
   }
 }
 
-/* Estilos responsivos para dispositivos móviles */
-@media (max-width: 768px) {
-  .tarifas-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    margin-left: 0;
+
+  @media only screen and (max-width: 1366px) {
+    /* Estilos específicos para portátiles pequeños */
   }
-  .tarifa {
-    width: 90%;
-    margin: 10px 0;
-  }
-  .tarifa__decorations {
-    display: none;
-  }
-  .tarifas__background{
-    background-position: 90% 50%;
-  }
+  
+  /* Media Query para móviles a partir de 430 píxeles de ancho */
+  @media only screen and (max-width: 430px) {
+    .tarifas-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+      margin-left: 0;
+    }
+    .tarifa {
+      width: 90%;
+      margin: 10px 0;
+    }
+    .tarifa__decorations {
+      display: none;
+    }
+    .tarifas__background{
+      background-position: 90% 50%;
+    }
 }
