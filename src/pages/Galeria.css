@@ -23,15 +23,20 @@
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
+
+  /* Media Query para portátiles de hasta 15,6 pulgadas (ancho máximo de 1366px) */
+  @media only screen and (max-width: 1366px) {
+    /* Estilos específicos para portátiles pequeños */
+  }
   
-  /* Estilos responsivos para dispositivos móviles */
-@media (max-width: 768px) {
+  /* Media Query para móviles a partir de 430 píxeles de ancho */
+  @media only screen and (max-width: 430px) {
     .galeria-container {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(9, 1fr);
     }
   
     .galeria-item {
-      height: calc((91vh - 80px) / 3); /* Ajusta la altura de cada imagen en móvil */
+      height: calc((91vh - 80px) / 3);
     }
   }
