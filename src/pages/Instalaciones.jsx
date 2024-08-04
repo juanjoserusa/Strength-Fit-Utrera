@@ -2,7 +2,7 @@ import React from 'react'
 
 const Instalaciones = () => {
   return (
-    <div>Instalaciones</div>
+    <div> Pendiente Instalaciones</div>
   )
 }
 
