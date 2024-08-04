@@ -1,6 +1,6 @@
 export const galeria = [
     { 
-        image:"./src/assets/galeriaImages/multiestaciónDosTorres.jpg",
+        image:"/src/assets/galeriaImages/multiestaciónDosTorres.jpg",
         nombre:"Multiestación 2 torres"
     },
     { 
