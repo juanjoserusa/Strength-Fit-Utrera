@@ -44,6 +44,7 @@
   
   textarea {
     resize: none !important;
+    height: 13rem;
   }
   
   label {
