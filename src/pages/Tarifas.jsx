@@ -1,6 +1,7 @@
 import React from 'react';
 import './Tarifas.css';
 import { tarifas } from '../assets/constant/tarifas';
+import { Link } from 'react-router-dom';
 
 const Tarifas = () => {
   return (
@@ -17,7 +18,7 @@ const Tarifas = () => {
               ))}
             </ul>
             <p className='mt-1 price'>Precio: {tarifa.precio} €/mes</p>
-            <a href="https://www.strengthfitutrera.com/contacto" className="btn btn-primary">Seleccionar</a>
+            <Link to={"/contacto"} className="btn btn-primary">Seleccionar</Link>
           </div>
         ))  
         } 
