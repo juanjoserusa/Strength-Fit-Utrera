@@ -49,11 +49,11 @@ const Header = () => {
                   Filosofia
                 </Link>
               </li>
-               <li className="nav-item">
+               {/* <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to={"/galeria"} onClick={handleNavLinkClick}>
                   Galeria
                 </Link>
-              </li> 
+              </li>  */}
                <li className="nav-item">
                 <Link className="nav-link active" aria-current="page" to={"/instalaciones"} onClick={handleNavLinkClick}>
                   Instalaciones
