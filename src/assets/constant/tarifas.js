@@ -7,7 +7,7 @@ export const tarifas = [
             "Acceso a duchas y vestuarios."
         ],
         precio: 25.00,
-        link: "https://strengthfitutrera.com/contacto"
+        link: "/contacto"
     },
     {
         nombre: "Tarifa SportStrength",
@@ -17,6 +17,6 @@ export const tarifas = [
             "Acceso a duchas y vestuarios."
         ],
         precio: 15.00,
-        link: "https://strengthfitutrera.com/contacto"
+        link: "/contacto"
     },
 ];
