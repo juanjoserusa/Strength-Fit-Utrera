@@ -34,7 +34,7 @@ const BackgroundWithText = () => {
           experiencia de entrenamiento de calidad, accesible y cómoda, para que
           solo pagues por lo que realmente utilizas.
         </p>
-        <Link className="home__div-button" to={"/contacto"}>
+        <Link className="home__div-button" to={"/filosofia"}>
           <button className="btn btn-primary home__button-home">
             La filosofía del fitness que estabas buscando
           </button>
