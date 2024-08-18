@@ -1,0 +1,80 @@
+.youtube-videos-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .zones {
+    margin-bottom: 20px;
+  }
+  
+  .zones button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .zones button:hover {
+    background-color: #d40000;
+  }
+  
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .zone-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .video {
+    width: 100%; /* Ocupa todo el espacio disponible en la columna */
+    margin: 0; /* Elimina márgenes adicionales */
+    padding-bottom: 0; /* Elimina el padding debajo */
+  }
+  
+  .video iframe {
+    width: 100%;
+    height: 100%; /* Asegura que el iframe ocupe el espacio disponible */
+    display: block; /* Elimina los espacios adicionales que los iframes pueden generar */
+    aspect-ratio: 16/9; /* Mantiene la proporción del video */
+  }
+  
+  .video-title {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos responsive */
+  @media (max-width: 1024px) {
+    .videos {
+      grid-template-columns: 1fr 1fr; /* Dos columnas en pantallas medianas */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .videos {
+      grid-template-columns: 1fr; /* Una columna en pantallas pequeñas */
+    }
+  }
+  
