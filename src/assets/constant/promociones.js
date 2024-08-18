@@ -1,4 +1,4 @@
-export const tarifas = [
+export const promocion = [
     {
         nombre: "Promoción apertura",
         descripcion: [
