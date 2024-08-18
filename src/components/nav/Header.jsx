@@ -7,7 +7,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg border-body navbar__nav" data-bs-theme="dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to={"/"}>
-          Navbar
+          StrengthFit
         </Link>
         <button
           className="navbar-toggler"
