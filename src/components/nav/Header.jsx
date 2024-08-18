@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import "./header.css";
 
 const Header = () => {
+  const navbarToggler = useRef(null);
+  const navbarCollapse = useRef(null);
+
+  const handleNavLinkClick = () => {
+    // Cierra el menú si está abierto
+    if (navbarToggler.current && navbarToggler.current.classList.contains('collapsed') === false) {
+      navbarToggler.current.click();
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-lg border-body navbar__nav" data-bs-theme="dark">
       <div className="container-fluid">
@@ -11,6 +21,7 @@ const Header = () => {
         </Link>
         <button
           className="navbar-toggler"
+          ref={navbarToggler}
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -20,45 +31,40 @@ const Header = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent" ref={navbarCollapse}>
           <div className="d-lg-flex justify-content-between w-100">
             <ul className="navbar-nav mx-auto text-center navbar_list-text">
               <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/"}>
+                <Link className="nav-link active" aria-current="page" to={"/"} onClick={handleNavLinkClick}>
                   Inicio
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/tarifas"}>
+                <Link className="nav-link active" aria-current="page" to={"/tarifas"} onClick={handleNavLinkClick}>
                   Tarifas
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/filosofia"}>
+                <Link className="nav-link active" aria-current="page" to={"/filosofia"} onClick={handleNavLinkClick}>
                   Filosofia
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/galeria"}>
+                <Link className="nav-link active" aria-current="page" to={"/galeria"} onClick={handleNavLinkClick}>
                   Galeria
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/instalaciones"}>
+              {/* <li className="nav-item">
+                <Link className="nav-link active" aria-current="page" to={"/instalaciones"} onClick={handleNavLinkClick}>
                   Instalaciones
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <Link className="nav-link active " aria-current="page" to={"/contacto"}>
+                <Link className="nav-link active" aria-current="page" to={"/contacto"} onClick={handleNavLinkClick}>
                   Contacto
                 </Link>
               </li>
             </ul>
-            {/* <form className="d-flex d-lg-block mt-2 mt-lg-0 justify-content-center" role="search">
-              <button className="btn btn-outline-success">
-                Search
-              </button>
-            </form> */}
           </div>
         </div>
       </div>
