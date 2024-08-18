@@ -5,7 +5,7 @@
   display: flex;
   justify-content: flex-start; /* Align items to the right */
   align-items: center;
-  height: 91vh;
+  height: 80vh;
 }
 
 .tarifas-container {
@@ -96,7 +96,8 @@
 
 
   .tarifas__background{
-    height: 00%;
+    height: 100%;
+    margin-top: -100px;
   }
 
   .tarifas-container {
@@ -114,13 +115,21 @@ height: 45rem;
 
 /* Media Query for mobile devices less than 430px */
 @media only screen and (max-width: 430px) {
+  .tarifas__background {
+    height: 100%;
+    margin-bottom: 50px !important;
+    margin-top: -100px;
+
+  }
   .tarifas-container{
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px !important;
   }
 
-  .tarifas-background {
-    height: 100%;
-  }
   .tarifas-container {
     height: 100%;
     display: flex;
