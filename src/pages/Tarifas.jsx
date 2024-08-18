@@ -17,7 +17,7 @@ const Tarifas = () => {
               ))}
             </ul>
             <p className='mt-1 price'>Precio: {tarifa.precio} €/mes</p>
-            <a href={tarifa.link} className="btn btn-primary">Seleccionar</a>
+            <a href="https://www.strengthfitutrera.com/contacto" className="btn btn-primary">Seleccionar</a>
           </div>
         ))  
         } 
