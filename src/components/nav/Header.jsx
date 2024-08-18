@@ -17,7 +17,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg border-body navbar__nav" data-bs-theme="dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to={"/"}>
-          StrengthFit
+          <img src="https://i.imgur.com/rcywUbz.png" width={"100px"} className="ms-3 mt-3"/>
         </Link>
         <button
           className="navbar-toggler"
