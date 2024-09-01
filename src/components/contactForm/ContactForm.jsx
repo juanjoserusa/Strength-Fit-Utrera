@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import emailjs from "emailjs-com";
 import "./ContactForm.css";
 
@@ -22,6 +22,7 @@ const ContactForm = () => {
       },
       "2rBtVNFTQLeJiUiRc" // Reemplaza con tu User ID de EmailJS
     ).then((result) => {
+      alert("email enviado correctamente, le contestaremos lo mas pronto posible")
         console.log("Email sent successfully!", result.text);
       })
       .catch((error) => {
